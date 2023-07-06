@@ -1,7 +1,7 @@
 remove libreofice:
 https://askubuntu.com/questions/180403/how-to-uninstall-libreoffice
 
-sudo apt-get remove --purge ‘libreoffice*’
+sudo apt-get remove --purge libreoffice\*
 sudo apt-get clean
 sudo apt-get autoremove
 
