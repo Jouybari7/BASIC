@@ -1,0 +1,38 @@
+remove libreofice:
+https://askubuntu.com/questions/180403/how-to-uninstall-libreoffice
+
+remove games:
+use software
+
+update:
+sudo apt-get update
+
+upgrade:
+sudo apt-get upgrade 
+
+magic fan:
+https://github.com/Pyrestone/jetson-fan-ctl
+
+
+jtop:
+https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/#:~:text=There%20are%20a%20couple%20of,install%20jetson%2Dstats%20from%20PyPi.&text=Once%20pip%20installs%20the%20jetson,login%20or%20reboot%20the%20Jetson.&text=The%20interface%20will%20appear%20in%20the%20Terminal.
+
+increase swapfile :
+https://jetsonhacks.com/2019/04/14/jetson-nano-use-more-memory/
+https://jetsonhacks.com/2019/11/28/jetson-nano-even-more-swap/
+
+
+opencv cuda support:
+https://jetsonhacks.com/2019/11/22/opencv-4-cuda-on-jetson-nano/
+
+
+visual studio:
+sudo apt-get install curl
+curl -L https://github.com/toolboc/vscode/releases/download/1.32.3/code-oss_1.32.3-arm64.deb -o code-oss_1.32.3-arm64.deb
+sudo dpkg -i code-oss_1.32.3-arm64.deb -o code-oss_1.32.3-arm64.deb
+
+pip3 install tqdm
+
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig
+echo $PKG_CONFIG_PATH
+
